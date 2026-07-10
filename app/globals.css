@@ -113,7 +113,7 @@ code, .mono { font-family: var(--font-mono), monospace; }
 
 .roster { display: flex; justify-content: center; gap: clamp(0.6rem, 2vw, 1.4rem); flex-wrap: wrap; }
 .pilot { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; }
-.pilot-pic { width: clamp(78px, 13vw, 118px); height: clamp(78px, 13vw, 118px); border-radius: 50%; border: 1.5px solid var(--green); background: radial-gradient(circle at 50% 40%, rgba(57,255,136,0.16), rgba(10,10,30,0.6)); box-shadow: 0 0 18px rgba(57,255,136,0.3); display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
+.pilot-pic { width: clamp(78px, 13vw, 118px); height: clamp(78px, 13vw, 118px); border-radius: 50%; border: 1.5px solid var(--green); background: radial-gradient(circle at 50% 40%, rgba(57,255,136,0.16), rgba(10,10,30,0.6)); box-shadow: 0 0 18px rgba(57,255,136,0.3); display: flex; align-items: flex-start; justify-content: center; overflow: hidden; }
 .pilot-pic img { width: 92%; height: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(57,255,136,0.4)); }
 .pilot-name { font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--cyan); }
 
